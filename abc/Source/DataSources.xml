@@ -99,7 +99,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="ap2" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="2" name="ap2">
+<DataObject PhysicalName="ap2" Resident="N" UniqueISNConvState="12" data_source="mssql" id="2" name="ap2">
 
   <Encrypt val="N"/>
 
@@ -117,7 +117,7 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="-1"/>
+  <PositionIndex val="1"/>
 
   <IndexesLastIsn val="1"/>
 
