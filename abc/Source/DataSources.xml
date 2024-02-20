@@ -119,11 +119,55 @@
 
   <PositionIndex val="-1"/>
 
+  <IndexesLastIsn val="1"/>
+
   <MetaTreeRTIndex val="-1"/>
 
-  <Columns/>
+  <Columns>
+    <Column id="1" name="1">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="20"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="1"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="1" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="2">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="20"/>
+        <StoredAs id="173" val="12"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="2"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="20"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="2" PIC_U="20" Size="20" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
 
-  <Indexes/>
+  <Indexes>
+    <Index id="1" name="idx">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="idx"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments/>
+    </Index>
+  </Indexes>
 
   <ForeignKeys/>
 
